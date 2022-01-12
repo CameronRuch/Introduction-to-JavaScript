@@ -174,24 +174,24 @@ const computer = () => {
 
 function game(user, computer){
   if (user === computer) {
-    return ("it's a tie!")
+    return ("it's a tie")
   } else if (user === 'rock') {
     if (computer === 'paper') {
-      return ('you lost!');
+      return ('you lose!');
     } else {
-      return ('you won!')
+      return ('you win!')
     }
   } else if (user === 'paper') {
     if (computer === 'scissors') {
-      return ('you lost!')
+      return ('you lose!')
     } else {
-      return ('you won!')
-    }
+      return ('you win!')
+    }i
   } else if (user === 'scissors') {
     if (computer === 'paper') {
-      return 'you won!'
+      return 'you win!'
     } else {
-      return ('you lost!')
+      return ('you lose!')
     }
   }
 }
